@@ -1,0 +1,8 @@
+2023-02-13T02:00:38+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.2/tbp/business_profile/store/update/
+
+{"business_platform":"WOO_COMMERCE","external_business_id":"tt4b_woocommerce_63e0a3925e6ca","net_gmv":[{"interval":"LIFETIME","max":0,"min":0,"unit":"CURRENCY"}],"net_order_count":[{"interval":"LIFETIME","max":0,"min":0,"unit":"COUNT"}],"tenure":{"min":0,"max":0,"unit":"DAYS"},"extra_data":"{\"version\":\"1.0.15\"}"}
+ ajax: no
+2023-02-13T02:00:43+00:00 ERROR Tt4b_Mapi_Class::mapi_post: Response: 
+
+http_request_failed: cURL error 28: Operation timed out after 5000 milliseconds with 0 out of 0 bytes received
+

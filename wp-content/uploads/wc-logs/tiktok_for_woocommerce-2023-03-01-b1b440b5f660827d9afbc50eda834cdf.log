@@ -1,0 +1,30 @@
+2023-03-01T04:58:53+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.2/tbp/business_profile/store/update/
+
+{"business_platform":"WOO_COMMERCE","external_business_id":"tt4b_woocommerce_63e0a3925e6ca","net_gmv":[{"interval":"LIFETIME","max":0,"min":0,"unit":"CURRENCY"}],"net_order_count":[{"interval":"LIFETIME","max":0,"min":0,"unit":"COUNT"}],"tenure":{"min":0,"max":0,"unit":"DAYS"},"extra_data":"{\"version\":\"1.0.15\"}"}
+ ajax: no
+2023-03-01T04:58:54+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json; charset=utf-8
+Content-Length: 103
+X-Api-Deprecation-Info: API for Business Version 1.3 is now live. To avoid disruption to your business, we recommend you migrate all calls to v1.3 as soon as possible. Please visit our migration guide for more details: https://ads.tiktok.com/marketing_api/docs?id=1740029169927169
+X-Domain-Change-Info: We have moved to the new domain business-api.tiktok.com for API services after the Platform Upgrade on 09/30/2021. Please update all of your requests with the new domain if you haven't done so already. For more information, please visit https://ads.tiktok.com/marketing_api/docs?rid=esb88xalm6m&id=1709207085043713
+X-Tt-Logid: 20230301045850547BE032CD0A0807FDD7
+x-tt-trace-host: 0163c6f0f76bb95def668c1fdfb422592a14ca2ad394ec0ae23fadf51a63d0f427ce03617187de3fa0c490972c9c262b435149615c30aff668ff3658a257fc03aa7a177192edd9c92acb97a8fbeffdd642dfedda9222bbac52835d4d8294683767ad0cacb67d1c223fdc5f86f97b8c03c6
+X-Origin-Response-Time: 9,23.64.122.110
+X-Akamai-Request-ID: 335944a4.118ba745
+Expires: Wed, 01 Mar 2023 04:58:51 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Wed, 01 Mar 2023 04:58:51 GMT
+X-Cache: TCP_MISS from a113-171-12-175.deploy.akamaitechnologies.com (AkamaiGHost/11.0.0-46340752) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-64-122-110.deploy.akamaitechnologies.com (AkamaiGHost/11.0.0-46340752) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=52, origin; dur=9
+Server-Timing: inner; dur=4
+X-Parent-Response-Time: 60,113.171.12.175
+
+{"code":40104,"message":"The access_token is empty.","request_id":"20230301045850547BE032CD0A0807FDD7"}
+

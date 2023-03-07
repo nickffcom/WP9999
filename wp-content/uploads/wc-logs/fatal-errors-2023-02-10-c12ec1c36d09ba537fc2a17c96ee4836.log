@@ -1,0 +1,76 @@
+2023-02-10T02:17:22+00:00 CRITICAL Uncaught Error: Object of class WP_Term could not be converted to string in C:\xampp\htdocs\HocWP\wp-content\themes\shop\index.php:33
+Stack trace:
+#0 C:\xampp\htdocs\HocWP\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\HocWP\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\HocWP\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\HocWP\wp-content\themes\shop\index.php on line 33
+
+2023-02-10T02:26:33+00:00 CRITICAL Uncaught Error: Call to undefined function print_f() in C:\xampp\htdocs\HocWP\wp-content\themes\shop\index.php:34
+Stack trace:
+#0 C:\xampp\htdocs\HocWP\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\HocWP\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\HocWP\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\HocWP\wp-content\themes\shop\index.php on line 34
+
+2023-02-10T02:41:55+00:00 CRITICAL syntax error, unexpected identifier "var_dump" in C:\xampp\htdocs\HocWP\wp-content\themes\shop\index.php on line 35
+
+2023-02-10T02:45:36+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function get_term_by(), 1 passed in C:\xampp\htdocs\HocWP\wp-content\themes\shop\index.php on line 34 and at least 2 expected in C:\xampp\htdocs\HocWP\wp-includes\taxonomy.php:1047
+Stack trace:
+#0 C:\xampp\htdocs\HocWP\wp-content\themes\shop\index.php(34): get_term_by('slug')
+#1 C:\xampp\htdocs\HocWP\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\HocWP\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\HocWP\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\HocWP\wp-includes\taxonomy.php on line 1047
+
+2023-02-10T02:58:45+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Term as array in C:\xampp\htdocs\HocWP\wp-content\themes\shop\index.php:42
+Stack trace:
+#0 C:\xampp\htdocs\HocWP\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\HocWP\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\HocWP\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\HocWP\wp-content\themes\shop\index.php on line 42
+
+2023-02-10T03:11:26+00:00 CRITICAL syntax error, unexpected single-quoted string "parent", expecting ")" in C:\xampp\htdocs\HocWP\wp-content\themes\shop\index.php on line 40
+
+2023-02-10T03:23:35+00:00 CRITICAL syntax error, unexpected variable "$getpost" in C:\xampp\htdocs\HocWP\wp-content\themes\shop\index.php on line 68
+
+2023-02-10T03:23:57+00:00 CRITICAL syntax error, unexpected variable "$getposts" in C:\xampp\htdocs\HocWP\wp-content\themes\shop\index.php on line 68
+
+2023-02-10T03:25:18+00:00 CRITICAL syntax error, unexpected variable "$getposts" in C:\xampp\htdocs\HocWP\wp-content\themes\shop\index.php on line 68
+
+2023-02-10T03:26:11+00:00 CRITICAL syntax error, unexpected variable "$getposts" in C:\xampp\htdocs\HocWP\wp-content\themes\shop\index.php on line 68
+
+2023-02-10T04:49:14+00:00 CRITICAL Uncaught Error: Object of class WP_Term could not be converted to string in C:\xampp\htdocs\HocWP\wp-content\themes\shop\index.php:66
+Stack trace:
+#0 C:\xampp\htdocs\HocWP\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\HocWP\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\HocWP\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\HocWP\wp-content\themes\shop\index.php on line 66
+
+2023-02-10T07:08:30+00:00 CRITICAL Uncaught Error: Call to a member function get_regular_price() on null in C:\xampp\htdocs\HocWP\wp-content\themes\shop\content\item_product.php:7
+Stack trace:
+#0 C:\xampp\htdocs\HocWP\wp-includes\template.php(785): require()
+#1 C:\xampp\htdocs\HocWP\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\HocWP\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\HocWP\wp-content\themes\shop\index.php(68): get_template_part('content/item_pr...')
+#4 C:\xampp\htdocs\HocWP\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\HocWP\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\HocWP\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\HocWP\wp-content\themes\shop\content\item_product.php on line 7
+
+2023-02-10T07:14:01+00:00 CRITICAL syntax error, unexpected token "}", expecting ";" in C:\xampp\htdocs\HocWP\wp-content\themes\shop\functions.php on line 12
+
+2023-02-10T07:19:51+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string + null in C:\xampp\htdocs\HocWP\wp-content\themes\shop\functions.php:12
+Stack trace:
+#0 C:\xampp\htdocs\HocWP\wp-content\themes\shop\index.php(116): IN_RA(Object(WP_Term))
+#1 C:\xampp\htdocs\HocWP\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\HocWP\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\HocWP\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\HocWP\wp-content\themes\shop\functions.php on line 12
+

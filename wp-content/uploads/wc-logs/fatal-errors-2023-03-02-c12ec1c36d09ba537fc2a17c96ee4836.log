@@ -1,0 +1,26 @@
+2023-03-02T07:43:35+00:00 CRITICAL Uncaught Error: Call to undefined function IN_RA() in C:\xampp\htdocs\HocWP\wp-content\plugins\tinymce-advanced\tinymce-advanced.php:404
+Stack trace:
+#0 C:\xampp\htdocs\HocWP\wp-includes\class-wp-hook.php(308): Advanced_Editor_Tools->update_settings('')
+#1 C:\xampp\htdocs\HocWP\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\HocWP\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\HocWP\wp-settings.php(480): do_action('plugins_loaded')
+#4 C:\xampp\htdocs\HocWP\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\HocWP\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\HocWP\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\HocWP\wp-admin\options-general.php(10): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\HocWP\wp-content\plugins\tinymce-advanced\tinymce-advanced.php on line 404
+
+2023-03-02T07:43:54+00:00 CRITICAL Uncaught Error: Call to undefined function IN_RA() in C:\xampp\htdocs\HocWP\wp-content\plugins\tinymce-advanced\tinymce-advanced.php:404
+Stack trace:
+#0 C:\xampp\htdocs\HocWP\wp-includes\class-wp-hook.php(308): Advanced_Editor_Tools->update_settings('')
+#1 C:\xampp\htdocs\HocWP\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\HocWP\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\HocWP\wp-settings.php(480): do_action('plugins_loaded')
+#4 C:\xampp\htdocs\HocWP\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\HocWP\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\HocWP\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\HocWP\wp-admin\options-general.php(10): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\HocWP\wp-content\plugins\tinymce-advanced\tinymce-advanced.php on line 404
+

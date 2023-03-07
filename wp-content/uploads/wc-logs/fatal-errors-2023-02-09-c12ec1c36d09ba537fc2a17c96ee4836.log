@@ -1,0 +1,179 @@
+2023-02-09T09:16:34+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, no array or string given in C:\xampp\htdocs\HocWP\wp-includes\class-wp-hook.php:308
+Stack trace:
+#0 C:\xampp\htdocs\HocWP\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\HocWP\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\HocWP\wp-settings.php(617): do_action('init')
+#3 C:\xampp\htdocs\HocWP\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\HocWP\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\HocWP\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\HocWP\wp-includes\class-wp-hook.php on line 308
+
+2023-02-09T09:16:34+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, no array or string given in C:\xampp\htdocs\HocWP\wp-includes\class-wp-hook.php:308
+Stack trace:
+#0 C:\xampp\htdocs\HocWP\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\HocWP\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\HocWP\wp-settings.php(617): do_action('init')
+#3 C:\xampp\htdocs\HocWP\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\HocWP\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\HocWP\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\HocWP\wp-includes\class-wp-hook.php on line 308
+
+2023-02-09T09:17:16+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, no array or string given in C:\xampp\htdocs\HocWP\wp-includes\class-wp-hook.php:308
+Stack trace:
+#0 C:\xampp\htdocs\HocWP\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\HocWP\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\HocWP\wp-settings.php(617): do_action('init')
+#3 C:\xampp\htdocs\HocWP\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\HocWP\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\HocWP\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\HocWP\wp-admin\themes.php(10): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\HocWP\wp-includes\class-wp-hook.php on line 308
+
+2023-02-09T09:22:23+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, no array or string given in C:\xampp\htdocs\HocWP\wp-includes\class-wp-hook.php:308
+Stack trace:
+#0 C:\xampp\htdocs\HocWP\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\HocWP\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\HocWP\wp-settings.php(617): do_action('init')
+#3 C:\xampp\htdocs\HocWP\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\HocWP\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\HocWP\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\HocWP\wp-includes\class-wp-hook.php on line 308
+
+2023-02-09T09:22:24+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, no array or string given in C:\xampp\htdocs\HocWP\wp-includes\class-wp-hook.php:308
+Stack trace:
+#0 C:\xampp\htdocs\HocWP\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\HocWP\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\HocWP\wp-settings.php(617): do_action('init')
+#3 C:\xampp\htdocs\HocWP\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\HocWP\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\HocWP\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\HocWP\wp-admin\themes.php(10): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\HocWP\wp-includes\class-wp-hook.php on line 308
+
+2023-02-09T09:22:36+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, no array or string given in C:\xampp\htdocs\HocWP\wp-includes\class-wp-hook.php:308
+Stack trace:
+#0 C:\xampp\htdocs\HocWP\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\HocWP\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\HocWP\wp-settings.php(617): do_action('init')
+#3 C:\xampp\htdocs\HocWP\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\HocWP\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\HocWP\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\HocWP\wp-admin\themes.php(10): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\HocWP\wp-includes\class-wp-hook.php on line 308
+
+2023-02-09T09:22:47+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, no array or string given in C:\xampp\htdocs\HocWP\wp-includes\class-wp-hook.php:308
+Stack trace:
+#0 C:\xampp\htdocs\HocWP\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\HocWP\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\HocWP\wp-settings.php(617): do_action('init')
+#3 C:\xampp\htdocs\HocWP\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\HocWP\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\HocWP\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\HocWP\wp-admin\themes.php(10): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\HocWP\wp-includes\class-wp-hook.php on line 308
+
+2023-02-09T09:22:50+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, no array or string given in C:\xampp\htdocs\HocWP\wp-includes\class-wp-hook.php:308
+Stack trace:
+#0 C:\xampp\htdocs\HocWP\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\HocWP\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\HocWP\wp-settings.php(617): do_action('init')
+#3 C:\xampp\htdocs\HocWP\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\HocWP\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\HocWP\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\HocWP\wp-admin\index.php(10): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\HocWP\wp-includes\class-wp-hook.php on line 308
+
+2023-02-09T09:28:56+00:00 CRITICAL syntax error, unexpected token "}" in C:\xampp\htdocs\HocWP\wp-content\themes\shop\functions.php on line 25
+
+2023-02-09T09:33:40+00:00 CRITICAL syntax error, unexpected token "function" in C:\xampp\htdocs\HocWP\wp-content\themes\shop\functions.php on line 31
+
+2023-02-09T09:35:40+00:00 CRITICAL syntax error, unexpected token "function" in C:\xampp\htdocs\HocWP\wp-content\themes\shop\functions.php on line 31
+
+2023-02-09T10:32:50+00:00 CRITICAL syntax error, unexpected variable "$the_query" in C:\xampp\htdocs\HocWP\wp-content\themes\shop\slider.php on line 9
+
+2023-02-09T10:33:23+00:00 CRITICAL syntax error, unexpected token "endif", expecting end of file in C:\xampp\htdocs\HocWP\wp-content\themes\shop\slider.php on line 19
+
+2023-02-09T10:35:25+00:00 CRITICAL syntax error, unexpected token "endif", expecting end of file in C:\xampp\htdocs\HocWP\wp-content\themes\shop\slider.php on line 19
+
+2023-02-09T10:38:59+00:00 CRITICAL Uncaught Error: Call to undefined function the_get_ID() in C:\xampp\htdocs\HocWP\wp-content\themes\shop\slider.php:17
+Stack trace:
+#0 C:\xampp\htdocs\HocWP\wp-includes\template.php(785): require()
+#1 C:\xampp\htdocs\HocWP\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\HocWP\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\HocWP\wp-content\themes\shop\index.php(7): get_template_part('slider')
+#4 C:\xampp\htdocs\HocWP\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\HocWP\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\HocWP\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\HocWP\wp-content\themes\shop\slider.php on line 17
+
+2023-02-09T10:39:11+00:00 CRITICAL Uncaught Error: Call to undefined function the_get_ID() in C:\xampp\htdocs\HocWP\wp-content\themes\shop\slider.php:17
+Stack trace:
+#0 C:\xampp\htdocs\HocWP\wp-includes\template.php(785): require()
+#1 C:\xampp\htdocs\HocWP\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\HocWP\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\HocWP\wp-content\themes\shop\index.php(7): get_template_part('slider')
+#4 C:\xampp\htdocs\HocWP\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\HocWP\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\HocWP\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\HocWP\wp-content\themes\shop\slider.php on line 17
+
+2023-02-09T10:39:34+00:00 CRITICAL Uncaught Error: Call to undefined function the_get_ID() in C:\xampp\htdocs\HocWP\wp-content\themes\shop\slider.php:17
+Stack trace:
+#0 C:\xampp\htdocs\HocWP\wp-includes\template.php(785): require()
+#1 C:\xampp\htdocs\HocWP\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\HocWP\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\HocWP\wp-content\themes\shop\index.php(7): get_template_part('slider')
+#4 C:\xampp\htdocs\HocWP\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\HocWP\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\HocWP\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\HocWP\wp-content\themes\shop\slider.php on line 17
+
+2023-02-09T10:39:37+00:00 CRITICAL Uncaught Error: Call to undefined function the_get_ID() in C:\xampp\htdocs\HocWP\wp-content\themes\shop\slider.php:17
+Stack trace:
+#0 C:\xampp\htdocs\HocWP\wp-includes\template.php(785): require()
+#1 C:\xampp\htdocs\HocWP\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\HocWP\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\HocWP\wp-content\themes\shop\index.php(7): get_template_part('slider')
+#4 C:\xampp\htdocs\HocWP\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\HocWP\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\HocWP\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\HocWP\wp-content\themes\shop\slider.php on line 17
+
+2023-02-09T10:40:24+00:00 CRITICAL Uncaught Error: Call to undefined function the_get_ID() in C:\xampp\htdocs\HocWP\wp-content\themes\shop\slider.php:17
+Stack trace:
+#0 C:\xampp\htdocs\HocWP\wp-includes\template.php(785): require()
+#1 C:\xampp\htdocs\HocWP\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\HocWP\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\HocWP\wp-content\themes\shop\index.php(7): get_template_part('slider')
+#4 C:\xampp\htdocs\HocWP\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\HocWP\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\HocWP\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\HocWP\wp-content\themes\shop\slider.php on line 17
+
+2023-02-09T10:47:47+00:00 CRITICAL syntax error, unexpected token "}" in C:\xampp\htdocs\HocWP\wp-content\themes\shop\slider.php on line 19
+
+2023-02-09T10:48:01+00:00 CRITICAL Uncaught Error: Call to undefined function the_get_ID() in C:\xampp\htdocs\HocWP\wp-content\themes\shop\slider.php:17
+Stack trace:
+#0 C:\xampp\htdocs\HocWP\wp-includes\template.php(785): require()
+#1 C:\xampp\htdocs\HocWP\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\HocWP\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\HocWP\wp-content\themes\shop\index.php(7): get_template_part('slider')
+#4 C:\xampp\htdocs\HocWP\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\HocWP\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\HocWP\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\HocWP\wp-content\themes\shop\slider.php on line 17
+

@@ -1,0 +1,48 @@
+2023-02-22T09:54:30+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\xampp\htdocs\HocWP\wp-content\themes\shop\index.php:78
+Stack trace:
+#0 C:\xampp\htdocs\HocWP\wp-includes\template.php(785): require()
+#1 C:\xampp\htdocs\HocWP\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\HocWP\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\HocWP\wp-content\themes\shop\page.php(4): get_template_part('index')
+#4 C:\xampp\htdocs\HocWP\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\HocWP\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\HocWP\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\HocWP\wp-content\themes\shop\index.php on line 78
+
+2023-02-22T09:54:54+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\xampp\htdocs\HocWP\wp-content\themes\shop\index.php:78
+Stack trace:
+#0 C:\xampp\htdocs\HocWP\wp-includes\template.php(785): require()
+#1 C:\xampp\htdocs\HocWP\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\HocWP\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\HocWP\wp-content\themes\shop\page.php(4): get_template_part('index')
+#4 C:\xampp\htdocs\HocWP\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\HocWP\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\HocWP\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\HocWP\wp-content\themes\shop\index.php on line 78
+
+2023-02-22T09:55:14+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\xampp\htdocs\HocWP\wp-content\themes\shop\index.php:79
+Stack trace:
+#0 C:\xampp\htdocs\HocWP\wp-includes\template.php(785): require()
+#1 C:\xampp\htdocs\HocWP\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\HocWP\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\HocWP\wp-content\themes\shop\page.php(4): get_template_part('index')
+#4 C:\xampp\htdocs\HocWP\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\HocWP\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\HocWP\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\HocWP\wp-content\themes\shop\index.php on line 79
+
+2023-02-22T09:55:18+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\xampp\htdocs\HocWP\wp-content\themes\shop\index.php:79
+Stack trace:
+#0 C:\xampp\htdocs\HocWP\wp-includes\template.php(785): require()
+#1 C:\xampp\htdocs\HocWP\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\HocWP\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\HocWP\wp-content\themes\shop\page.php(4): get_template_part('index')
+#4 C:\xampp\htdocs\HocWP\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\HocWP\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\HocWP\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\HocWP\wp-content\themes\shop\index.php on line 79
+

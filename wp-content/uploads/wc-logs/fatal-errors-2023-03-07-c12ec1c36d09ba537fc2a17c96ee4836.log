@@ -1,0 +1,24 @@
+2023-03-07T09:24:23+00:00 CRITICAL Uncaught Error: Call to a member function get_regular_price() on null in C:\xampp\htdocs\HocWP\wp-content\themes\shop\content\content-item-product.php:10
+Stack trace:
+#0 C:\xampp\htdocs\HocWP\wp-includes\template.php(785): require()
+#1 C:\xampp\htdocs\HocWP\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\HocWP\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\HocWP\wp-content\themes\shop\page.php(36): get_template_part('content/content', 'item-product')
+#4 C:\xampp\htdocs\HocWP\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\HocWP\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\HocWP\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\HocWP\wp-content\themes\shop\content\content-item-product.php on line 10
+
+2023-03-07T09:42:59+00:00 CRITICAL Uncaught Error: Call to a member function get_regular_price() on null in C:\xampp\htdocs\HocWP\wp-content\themes\shop\content\item-product.php:9
+Stack trace:
+#0 C:\xampp\htdocs\HocWP\wp-includes\template.php(785): require()
+#1 C:\xampp\htdocs\HocWP\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\HocWP\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\HocWP\wp-content\themes\shop\page.php(35): get_template_part('content/item-pr...')
+#4 C:\xampp\htdocs\HocWP\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\HocWP\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\HocWP\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\HocWP\wp-content\themes\shop\content\item-product.php on line 9
+

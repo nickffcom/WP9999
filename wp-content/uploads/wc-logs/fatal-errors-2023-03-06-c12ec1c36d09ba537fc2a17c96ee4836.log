@@ -1,0 +1,49 @@
+2023-03-06T05:04:41+00:00 CRITICAL Uncaught Error: Undefined constant "ZENDVN_MP_IMAGES_URL" in C:\xampp\htdocs\HocWP\wp-content\themes\shop\functions.php:125
+Stack trace:
+#0 C:\xampp\htdocs\HocWP\wp-includes\class-wp-hook.php(308): create('')
+#1 C:\xampp\htdocs\HocWP\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\HocWP\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\HocWP\wp-settings.php(617): do_action('init')
+#4 C:\xampp\htdocs\HocWP\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\HocWP\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\HocWP\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\HocWP\wp-content\themes\shop\functions.php on line 125
+
+2023-03-06T05:04:41+00:00 CRITICAL Uncaught Error: Undefined constant "ZENDVN_MP_IMAGES_URL" in C:\xampp\htdocs\HocWP\wp-content\themes\shop\functions.php:125
+Stack trace:
+#0 C:\xampp\htdocs\HocWP\wp-includes\class-wp-hook.php(308): create('')
+#1 C:\xampp\htdocs\HocWP\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\HocWP\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\HocWP\wp-settings.php(617): do_action('init')
+#4 C:\xampp\htdocs\HocWP\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\HocWP\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\HocWP\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\HocWP\wp-admin\edit-comments.php(10): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\HocWP\wp-content\themes\shop\functions.php on line 125
+
+2023-03-06T05:04:42+00:00 CRITICAL Uncaught Error: Undefined constant "ZENDVN_MP_IMAGES_URL" in C:\xampp\htdocs\HocWP\wp-content\themes\shop\functions.php:125
+Stack trace:
+#0 C:\xampp\htdocs\HocWP\wp-includes\class-wp-hook.php(308): create('')
+#1 C:\xampp\htdocs\HocWP\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\HocWP\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\HocWP\wp-settings.php(617): do_action('init')
+#4 C:\xampp\htdocs\HocWP\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\HocWP\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\HocWP\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\HocWP\wp-content\themes\shop\functions.php on line 125
+
+2023-03-06T05:04:42+00:00 CRITICAL Uncaught Error: Undefined constant "ZENDVN_MP_IMAGES_URL" in C:\xampp\htdocs\HocWP\wp-content\themes\shop\functions.php:125
+Stack trace:
+#0 C:\xampp\htdocs\HocWP\wp-includes\class-wp-hook.php(308): create('')
+#1 C:\xampp\htdocs\HocWP\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\HocWP\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\HocWP\wp-settings.php(617): do_action('init')
+#4 C:\xampp\htdocs\HocWP\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\HocWP\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\HocWP\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\HocWP\wp-content\themes\shop\functions.php on line 125
+

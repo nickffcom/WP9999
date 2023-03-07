@@ -1,0 +1,73 @@
+2023-02-06T04:57:47+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2023-02-06T06:42:01+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2023-02-06T06:44:01+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2023-02-06T06:44:37+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2023-02-06T06:46:19+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2023-02-06T06:47:11+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit injectViewContentEvent
+2023-02-06T06:47:11+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
+2023-02-06T06:52:02+00:00 DEBUG POST: https://ads.tiktok.com/marketing_api/api/developer/app/create_auto_approve/
+
+{"business_platform":"PROD","smb_id":"tt4b_woocommerce_63e0a3925e6cahttplocalhostHocWPwp-admin","smb_name":"WOO_COMMERCE","redirect_url":"http:\/\/localhost\/HocWP\/wp-admin\/"}
+ ajax: no
+2023-02-06T06:52:02+00:00 DEBUG Tt4b_Mapi_Class::create_open_source_app: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+X-Tt-Logid: 20230206065136016D36DB98BEE3AADD97,20230206065136016D36DB98BEE3AADD97
+x-tt-trace-host: 0175ff7c1422dbe1eef0f9e2687695f8849b7d23da26f2c29297bf30ce178e7de764197d3f5c5180b03b6e4c9971e661e501bea8d86d552f1ab6ce74736a8d3af77ae0e9a9b0d841fa88e443804c2d066f0cbf2c7e47fb286c0b078d0ce0d2e8d44b28f1f3c9f556b70c0ee720961a865250dfe63571abb13f2a377f9cacc76444
+Content-Encoding: gzip
+Content-Length: 209
+X-Origin-Response-Time: 134,23.193.104.209
+X-Akamai-Request-ID: 10e686d3.4e1198c
+Date: Mon, 06 Feb 2023 06:51:37 GMT
+X-Cache: TCP_MISS from a113-171-12-182.deploy.akamaitechnologies.com (AkamaiGHost/10.10.3-45298580) (-)
+Connection: close
+Vary: Accept-Encoding
+X-Cache-Remote: TCP_MISS from a23-193-104-209.deploy.akamaitechnologies.com (AkamaiGHost/10.10.3-45298580) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=38, origin; dur=134
+Server-Timing: inner; dur=130
+X-Parent-Response-Time: 170,113.171.12.182
+
+{"code":0,"msg":"ok","data":{"app_id":"7196931945484271617","external_data_key":"90715b54-666f-43ac-9930-6f8231fe2642","app_secret":"20a6a934ea5bfcaa08b51fc34ff5d5896f80e2e1","redirect_uri":"http:\/\/localhost\/HocWP\/wp-admin\/"}}
+
+2023-02-06T06:52:02+00:00 DEBUG Tt4b_Menu_Class::tt4b_admin_menu_main: external_data: eyJleHRlcm5hbF9idXNpbmVzc19pZCI6InR0NGJfd29vY29tbWVyY2VfNjNlMGEzOTI1ZTZjYSIsImJ1c2luZXNzX3BsYXRmb3JtIjoiV09PX0NPTU1FUkNFIiwibG9jYWxlIjoidmkiLCJ2ZXJzaW9uIjoiMS41IiwidGltZXN0YW1wIjoiMTY3NTY2NjMyMjAwMCIsInRpbWV6b25lIjoiR01UKzc6MDAiLCJjb3VudHJ5X3JlZ2lvbiI6IlZOIiwiZW1haWwiOiJjdWJveTk5eEBnbWFpbC5jb20iLCJpbmR1c3RyeV9pZCI6IjI5MTQwOCIsInN0b3JlX25hbWUiOiJIT0NXUDk5OS5ORVQiLCJjdXJyZW5jeSI6IlZORCIsIndlYnNpdGVfdXJsIjoiaHR0cDovL2xvY2FsaG9zdC9Ib2NXUCIsImRvbWFpbiI6Imh0dHA6Ly9sb2NhbGhvc3QvSG9jV1AiLCJhcHBfaWQiOiI3MTk2OTMxOTQ1NDg0MjcxNjE3IiwicmVkaXJlY3RfdXJpIjoiaHR0cDovL2xvY2FsaG9zdC9Ib2NXUC93cC1hZG1pbi8iLCJobWFjIjoiN2YzOTQ1OGRiMDQzMmNhYTAyNDVhN2U0NGViYWFjODI5ZWZmMmExZjU2NjMwODhkOGNiZDBlYTVkMjMxOGEzMyIsImNsb3NlX21ldGhvZCI6InJlZGlyZWN0X2luc2lkZV90aWt0b2siLCJpc19lbWFpbF92ZXJpZmllZCI6dHJ1ZSwiaXNfdmVyaWZpZWQiOnRydWUsIm5ldF9nbXYiOlt7ImludGVydmFsIjoiTElGRVRJTUUiLCJtaW4iOjAsIm1heCI6MCwidW5pdCI6IkNVUlJFTkNZIn1dLCJuZXRfb3JkZXJfY291bnQiOlt7ImludGVydmFsIjoiTElGRVRJTUUiLCJtaW4iOjAsIm1heCI6MCwidW5pdCI6IkNPVU5UIn1dLCJ0ZW51cmUiOnsibWluIjowLCJ1bml0IjoiREFZUyJ9LCJleHRyYV9kYXRhIjoie1widmVyc2lvblwiOlwiMS4wLjE1XCJ9IiwiYWRkcmVzc18xIjoiSENNIiwiYWRkcmVzc18yIjoiIiwiY2l0eSI6IkhcdTFlZDMgQ2hcdTAwZWQgTWluaCIsInN0YXRlIjoiIiwiemlwX2NvZGUiOiI3NDAwMCJ9
+2023-02-06T06:52:14+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.2/tbp/business_profile/store/update/
+
+{"business_platform":"WOO_COMMERCE","external_business_id":"tt4b_woocommerce_63e0a3925e6ca","net_gmv":[{"interval":"LIFETIME","max":0,"min":0,"unit":"CURRENCY"}],"net_order_count":[{"interval":"LIFETIME","max":0,"min":0,"unit":"COUNT"}],"tenure":{"min":0,"max":0,"unit":"DAYS"},"extra_data":"{\"version\":\"1.0.15\"}"}
+ ajax: yes
+2023-02-06T06:52:14+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json; charset=utf-8
+Content-Length: 103
+X-Api-Deprecation-Info: API for Business Version 1.3 is now live. To avoid disruption to your business, we recommend you migrate all calls to v1.3 as soon as possible. Please visit our migration guide for more details: https://ads.tiktok.com/marketing_api/docs?id=1740029169927169
+X-Domain-Change-Info: We have moved to the new domain business-api.tiktok.com for API services after the Platform Upgrade on 09/30/2021. Please update all of your requests with the new domain if you haven't done so already. For more information, please visit https://ads.tiktok.com/marketing_api/docs?rid=esb88xalm6m&id=1709207085043713
+X-Tt-Logid: 20230206065148E5AE50F1C870AEB42438
+x-tt-trace-host: 0175ff7c1422dbe1eef0f9e2687695f8849b7d23da26f2c29297bf30ce178e7de764197d3f5c5180b03b6e4c9971e661e58ad60efebce0d082450ea61ba163f6cfe108c8da8518db37959163c4239d520688b6e9eebd3ff952f8dfc13e5f8ef1cb8eca584e81c57870ab2de7188871480e
+X-Origin-Response-Time: 10,23.193.104.209
+X-Akamai-Request-ID: 10e81c3d.4e25787
+Expires: Mon, 06 Feb 2023 06:51:49 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Mon, 06 Feb 2023 06:51:49 GMT
+X-Cache: TCP_MISS from a113-171-12-182.deploy.akamaitechnologies.com (AkamaiGHost/10.10.3-45298580) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-193-104-209.deploy.akamaitechnologies.com (AkamaiGHost/10.10.3-45298580) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=38, origin; dur=10
+Server-Timing: inner; dur=5
+X-Parent-Response-Time: 48,113.171.12.182
+
+{"code":40104,"message":"The access_token is empty.","request_id":"20230206065148E5AE50F1C870AEB42438"}
+
+2023-02-06T07:09:39+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit injectViewContentEvent
+2023-02-06T07:09:39+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
+2023-02-06T07:09:42+00:00 DEBUG Tt4b_Pixel_Class::inject_add_to_cart_event: hit injectAddToCartEvent
+2023-02-06T07:09:42+00:00 DEBUG Tt4b_Pixel_Class::inject_add_to_cart_event: Missing option "access_token"
+2023-02-06T07:09:42+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit injectViewContentEvent
+2023-02-06T07:09:42+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
+2023-02-06T07:10:41+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit injectViewContentEvent
+2023-02-06T07:10:41+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
